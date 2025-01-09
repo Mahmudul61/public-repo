@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: cadetblue;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    gap: 100px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+   
+}
+nav ul li a button{
+    color: white;
+    background-color: rgb(86, 229, 160);
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+}
+/*Main Div*/
+.main-title{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+/*First div style*/
+.title{
+   margin:20px;
+   padding: 50px;
+}
+.num1{
+    font-size: 10px;
+    font-weight: 500px;
+    opacity: 0.7;
+}
+.num2{
+padding: 8px;
+}
+.num3{
+    opacity: 0.8;
+    padding: 4px ;
+    font-size: 15px;
+}
+.num4{
+    text-align: center;
+    margin:10px;
+    
+}
+button{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+/*Second div style*/
+.title2{
+    margin:20px;
+
+    padding: 30px;
+}
+.num5{
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px;
+}
+.num6{
+    font-size: 20px;
+    text-align: center;
+}
+.num7{
+    text-decoration: none;
+    color: rgb(239, 228, 228);
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 5px;
+}
+.num7:hover{
+    background-color: rgb(58, 58, 232);
+    cursor: pointer;
+}
+.num8{
+    text-align: center;
+    margin: 10px;
+}
