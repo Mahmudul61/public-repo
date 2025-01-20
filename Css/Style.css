@@ -2,13 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: rgb(210, 245, 245);
+}
 h1{
     color: cadetblue;
 }
 nav{
     display: flex;
     justify-content: space-between; 
-    gap: 100px;
+    gap: 30px;
     align-items: center;
 }
 nav ul li{
@@ -19,6 +22,13 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
    
+}
+a:hover{
+    color: rgb(254, 253, 251);
+    background-color: rgb(107, 123, 244);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
 }
 nav ul li a button{
     color: white;
@@ -70,6 +80,9 @@ button{
 
     padding: 30px;
 }
+.title--2{
+    text-align: center;
+}
 .num5{
     border-radius: 20px;
     padding: 10px;
@@ -95,4 +108,23 @@ button{
 .num8{
     text-align: center;
     margin: 10px;
+}
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .main-title{
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .body{
+        align-items: center;
+        overflow-wrap: inherit;
+    }
 }
